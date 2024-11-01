@@ -1,0 +1,73 @@
+.menu {font-size: 20px;      font-style:oblique;
+    cursor: pointer;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    left: 10px;
+    z-index: 2000;
+border-radius: 10px 10px;
+list-style: none;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px 10px;
+}
+/* Menu Lateral */
+.fundo {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Fora da tela inicialmente */
+    width: 170px;
+    height: 500vh;
+    background-color:white;
+    transition: left 0.5s;
+    z-index: 1000;
+    border-radius: 10px 10px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+.botão-fechar-X {float: right;
+    position: relative;right: 10px;top: 10px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+.animação ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    white-space: nowrap;
+    text-decoration: underline;
+    width: 100px;
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
+    color: red;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px 10px;
+    margin-bottom: 10px;
+}
+body{align-items: center;justify-content: center;text-align: center;margin: auto;background:linear-gradient(to right,white,black,white);}
+h1{font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;text-decoration: underline;color: white;}
+h2{font-size: 20px;font-family: Arial, Helvetica, sans-serif;font-style: italic;text-shadow: 6px;color: black;}
+p{font-size: 15px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-style: inherit;text-shadow: 6px;color: white;}
+a{font-size: 15px;text-decoration: none;}
+ul{list-style-type: none;text-align: left;}
+dl{padding: 6px;}
+dt{text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;padding: 6px;}
+dd{font-size: 15px;font-family: Arial, Helvetica, sans-serif;font-style: initial;text-shadow: 6px;padding: 6px;text-align: left;}
+thead{text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;}
+tbody{font-size: 15px;font-family: 'Times New Roman', Times, serif;font-style: italic;text-shadow: 6px;text-align: left;}
+tfoot{text-align: left;font-size: 20px;font-family: Arial, Helvetica, sans-serif;font-style: initial;text-shadow: 6px;}
+summary{width: 230px;margin: auto;cursor: pointer;border-radius: 10px 10px;padding: 4px;text-shadow: 6px;}
+section{padding: 30px;margin: auto;width: 300px;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;border: 3px solid white;}
+footer{padding: 30px;margin: auto;width: 300px;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;border: 3px solid black;}
+nav{padding: 30px;margin: auto;width: 300px;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;border: 3px solid whitesmoke;}
+header{padding: 30px;margin: auto;width: 300px;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;border: 3px solid black;}
+.summary:hover{transform: scale(1.05);transition: transform(0.7s);}
+.header:hover{transform: scale(1.04);transition: transform(0.6s);}
+.section:hover{transform: scale(1.07);transition: transform(0.8s);}
+.footer:hover{transform: scale(1.05);transition: transform(0.5s);}
+.img:hover{transform: scale(1.06);transition: transform(0.7s);}
+.curses:hover{transform: scale(1.05);transition: transform(0.7s);}
