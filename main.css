@@ -60,7 +60,7 @@ dd{font-size: 15px;font-family: Arial, Helvetica, sans-serif;font-style: initial
 thead{text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;}
 tbody{font-size: 15px;font-family: 'Times New Roman', Times, serif;font-style: italic;text-shadow: 6px;text-align: left;}
 tfoot{text-align: left;font-size: 20px;font-family: Arial, Helvetica, sans-serif;font-style: initial;text-shadow: 6px;}
-summary{width: 230px;margin: auto;cursor: pointer;border-radius: 10px 10px;padding: 4px;text-shadow: 6px;}
+summary{width: 200px;margin: auto;cursor: pointer;border-radius: 10px 10px;padding: 4px;text-shadow: 6px;}
 section{padding: 30px;margin: auto;width: 300px;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;border: 3px solid white;}
 footer{padding: 30px;margin: auto;width: 300px;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;border: 3px solid black;}
 nav{padding: 30px;margin: auto;width: 300px;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;border: 3px solid whitesmoke;}
