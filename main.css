@@ -67,7 +67,7 @@ nav{padding: 30px;margin: auto;width: 300px;border-radius: 10px 10px;align-items
 header{padding: 30px;margin: auto;width: 300px;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;border: 3px solid black;}
 .summary:hover{transform: scale(1.05);transition: transform(0.7s);}
 .header:hover{transform: scale(1.04);transition: transform(0.6s);}
-.section:hover{transform: scale(1.07);transition: transform(0.8s);}
+.section:hover{transform: scale(1.02);transition: transform(0.5s);}
 .footer:hover{transform: scale(1.05);transition: transform(0.5s);}
 .img:hover{transform: scale(1.06);transition: transform(0.7s);}
 .curses:hover{transform: scale(1.05);transition: transform(0.7s);}
